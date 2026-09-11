@@ -1,0 +1,11 @@
+node_id,node_name,node_type,pos_x,pos_y,num_approaches,speed_limit_kmh,capacity_vph,base_flow_vph,base_speed_kmh,occupancy_pct
+0,Junction_West_In,entry_point,0.0,100.0,2,60,2400,1450,52.4,14.8
+1,Intersection_A1,signalized,250.0,100.0,4,50,3200,2100,38.6,28.5
+2,Central_Hub_A2,signalized,500.0,100.0,4,50,3600,2850,29.1,42.0
+3,Junction_East_Out,exit_point,750.0,100.0,2,60,2400,1620,54.8,12.3
+4,North_Feeder_N1,unsignalized,250.0,350.0,3,40,1600,820,36.2,11.5
+5,CBD_Gate_N2,signalized,500.0,350.0,4,50,2800,1950,33.4,31.2
+6,North_Feeder_N3,unsignalized,750.0,350.0,3,40,1600,740,37.0,9.8
+7,South_Feeder_S1,unsignalized,250.0,-150.0,3,40,1600,890,35.0,12.1
+8,Transit_Hub_S2,signalized,500.0,-150.0,4,50,3000,2250,31.8,35.6
+9,South_Feeder_S3,unsignalized,750.0,-150.0,3,40,1600,680,38.5,8.9
