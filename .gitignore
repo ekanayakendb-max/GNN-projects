@@ -4,7 +4,6 @@ __pycache__/
 *$py.class
 *.so
 .Python
-env/
 build/
 develop-eggs/
 dist/
@@ -25,37 +24,33 @@ wheels/
 .venv/
 venv/
 ENV/
-env.bak/
-venv.bak/
+env/
 
 # Jupyter Notebooks
-.ipynb_checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
 
-# IDEs & Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# PyTorch / Machine Learning models & checkpoints
-checkpoints/
+# PyTorch / Models
+*.pt
+*.pth
 *.ckpt
+*.onnx
 
-# PTV Vissim Simulation outputs & temporary files
+# PTV Vissim simulation runtime & temp files
+*.err
+*.log
 *.bak
-*.tra
-*.str
-*.mer
-*.ldf
-*.kpi
-*.knr
-*.tsc
 *.fzp
 *.att
+*.rsr
+*.rst
+*.anm
+*.pos
+*.mer
 
-# OS generated
-Thumbs.db
-ehthumbs.db
-Desktop.ini
-$RECYCLE.BIN/
+# Operating System & IDEs
 .DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
